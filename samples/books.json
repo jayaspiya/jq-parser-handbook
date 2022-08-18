@@ -1,0 +1,403 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": "61514d7175047543c48aa1d1",
+            "title": "Lord Of The Flies",
+            "author": "William Golding",
+            "releasedYear": 1954,
+            "tags": [
+                "fiction ",
+                "classic ",
+                "thriller "
+            ],
+            "price": 900
+        },
+        {
+            "id": "6150861d34fe17235f7e773d",
+            "title": "Paradise Lost",
+            "author": "John Milton",
+            "releasedYear": 1997,
+            "tags": [
+                "poetry ",
+                "classic ",
+                "fiction "
+            ],
+            "price": 1800
+        },
+        {
+            "id": "615085dd34fe17235f7e7739",
+            "title": "The War Of The Worlds",
+            "author": "Hg Wells",
+            "releasedYear": 2011,
+            "tags": [
+                "fiction ",
+                "horrer "
+            ],
+            "price": 700
+        },
+        {
+            "id": "615085bc34fe17235f7e7735",
+            "title": "Peter Pan",
+            "author": "James Matthew Barrie",
+            "releasedYear": 1911,
+            "tags": [
+                "children ",
+                "fiction ",
+                "fantasy "
+            ],
+            "price": 800
+        },
+        {
+            "id": "6150858534fe17235f7e7731",
+            "title": "The Invisible Man",
+            "author": "Hg Wells",
+            "releasedYear": 2007,
+            "tags": [
+                "fiction ",
+                "horrer ",
+                "science "
+            ],
+            "price": 800
+        },
+        {
+            "id": "6150855434fe17235f7e772d",
+            "title": "Hp Lovecraft",
+            "author": "Hp Lovecraft",
+            "releasedYear": 2001,
+            "tags": [
+                "fiction ",
+                "thriller ",
+                "fantasy "
+            ],
+            "price": 670
+        },
+        {
+            "id": "6150851c34fe17235f7e7729",
+            "title": "The Brothers Karamazov",
+            "author": "Fyodor Dostoyevsky",
+            "releasedYear": 1997,
+            "tags": [
+                "fiction ",
+                "classic ",
+                "crime "
+            ],
+            "price": 560
+        },
+        {
+            "id": "615084e934fe17235f7e7725",
+            "title": "The Outsiders",
+            "author": "Se Hinton",
+            "releasedYear": 2007,
+            "tags": [
+                "fiction ",
+                "children ",
+                "classic "
+            ],
+            "price": 900
+        },
+        {
+            "id": "615084ae34fe17235f7e7721",
+            "title": "The Odyssey",
+            "author": "Homer Homer",
+            "releasedYear": 2006,
+            "tags": [
+                "classic ",
+                "poem "
+            ],
+            "price": 750
+        },
+        {
+            "id": "6150846334fe17235f7e7718",
+            "title": "The Jungle Book",
+            "author": "Rudyard Kipling",
+            "releasedYear": 1914,
+            "tags": [
+                "adventure ",
+                "children ",
+                "classic "
+            ],
+            "price": 700
+        },
+        {
+            "id": "6150843034fe17235f7e7714",
+            "title": "Grimms Fairy Tales",
+            "author": "Brother Grimm",
+            "releasedYear": 1976,
+            "tags": [
+                "folklore ",
+                "children "
+            ],
+            "price": 1100
+        },
+        {
+            "id": "6150840034fe17235f7e7710",
+            "title": "Sherlock Holmes",
+            "author": "Arthur Conan Doyle",
+            "releasedYear": 1997,
+            "tags": [
+                "crime ",
+                "fiction ",
+                "thriller "
+            ],
+            "price": 700
+        },
+        {
+            "id": "615083c534fe17235f7e770c",
+            "title": "Split Milk",
+            "author": "Dk Cassidy",
+            "releasedYear": 2011,
+            "tags": [
+                "children ",
+                "folklore ",
+                "short "
+            ],
+            "price": 500
+        },
+        {
+            "id": "6150838e34fe17235f7e7708",
+            "title": "The Children Of Castle Rock",
+            "author": "Natasha Farrant",
+            "releasedYear": 2002,
+            "tags": [
+                "funny ",
+                "romance "
+            ],
+            "price": 200
+        },
+        {
+            "id": "6150835b34fe17235f7e7704",
+            "title": "The Count Monie Cristo",
+            "author": "Alexandre Dumas",
+            "releasedYear": 1844,
+            "tags": [
+                "classic ",
+                "adventure ",
+                "fiction "
+            ],
+            "price": 1000
+        },
+        {
+            "id": "6150831ef4eb2121e922dbbc",
+            "title": "Blindside",
+            "author": "James Patterson",
+            "releasedYear": 2005,
+            "tags": [
+                "mystery ",
+                "fiction ",
+                "thriller "
+            ],
+            "price": 880
+        },
+        {
+            "id": "614fe42205d95b0d7f75588c",
+            "title": "The Art Of War",
+            "author": "Sun Tzu",
+            "releasedYear": 1998,
+            "tags": [
+                "success ",
+                "war "
+            ],
+            "price": 1200
+        },
+        {
+            "id": "614cb613d7d9bd1a020513cd",
+            "title": "Dracula",
+            "author": "Bram Stoker",
+            "releasedYear": 1897,
+            "tags": [
+                "horror ",
+                "gothic "
+            ],
+            "price": 490
+        },
+        {
+            "id": "614cb5dcd7d9bd1a020513c9",
+            "title": "The Three Musketeers",
+            "author": "Alexandre Dumas",
+            "releasedYear": 2014,
+            "tags": [
+                "classic ",
+                "adventure ",
+                "fiction "
+            ],
+            "price": 700
+        },
+        {
+            "id": "614cb576d7d9bd1a020513c5",
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "releasedYear": 2020,
+            "tags": [
+                "drama ",
+                "horror ",
+                "fiction "
+            ],
+            "price": 800
+        },
+        {
+            "id": "614cb343d7d9bd1a020513bd",
+            "title": "Island Of Fog",
+            "author": "Keith Robinson",
+            "releasedYear": 1995,
+            "tags": [
+                "horrer ",
+                "mystery "
+            ],
+            "price": 870
+        },
+        {
+            "id": "614cb304d7d9bd1a020513b9",
+            "title": "Lagoon",
+            "author": "Nnedi Okorafor",
+            "releasedYear": 2014,
+            "tags": [
+                "thriller ",
+                "adventure ",
+                "fiction ",
+                "fantasy "
+            ],
+            "price": 700
+        },
+        {
+            "id": "614cb24ed7d9bd1a020513b1",
+            "title": "The Phantom Of The Opera",
+            "author": "Gaston Leroux",
+            "releasedYear": 2011,
+            "tags": [
+                "classic ",
+                "horrer ",
+                "romance "
+            ],
+            "price": 670
+        },
+        {
+            "id": "614cb213d7d9bd1a020513ad",
+            "title": "The Time Machine",
+            "author": "Hg Wells",
+            "releasedYear": 2012,
+            "tags": [
+                "fiction ",
+                "adventure "
+            ],
+            "price": 900
+        },
+        {
+            "id": "614cb1a3d7d9bd1a020513a5",
+            "title": "The Wild Path",
+            "author": "Sarah Baughman",
+            "releasedYear": 2012,
+            "tags": [
+                "children ",
+                "fantasy ",
+                "family "
+            ],
+            "price": 750
+        },
+        {
+            "id": "614cb10ad7d9bd1a020513a0",
+            "title": "Don Quixote",
+            "author": "Miguel De Cervantes",
+            "releasedYear": 2005,
+            "tags": [
+                "adventure ",
+                "comedy ",
+                "romance "
+            ],
+            "price": 800
+        },
+        {
+            "id": "614cb06cd7d9bd1a02051398",
+            "title": "Beowulf",
+            "author": "Burton Raffel",
+            "releasedYear": 2020,
+            "tags": [
+                "action ",
+                "adventure ",
+                "fantasy "
+            ],
+            "price": 400
+        },
+        {
+            "id": "614caf55d7d9bd1a02051394",
+            "title": "Around The World In 80 Days",
+            "author": "Jules Verne",
+            "releasedYear": 2020,
+            "tags": [
+                "action ",
+                "adventure ",
+                "comedy "
+            ],
+            "price": 180
+        },
+        {
+            "id": "614caedad7d9bd1a02051390",
+            "title": "Alice In Wonderland",
+            "author": "Lewis Carroll",
+            "releasedYear": 1865,
+            "tags": [
+                "adventure ",
+                "family ",
+                "fantasy "
+            ],
+            "price": 870
+        },
+        {
+            "id": "614cae58d7d9bd1a0205138c",
+            "title": "The Wind In The Willows",
+            "author": "Kenneth Grahame",
+            "releasedYear": 2008,
+            "tags": [
+                "children ",
+                "animal "
+            ],
+            "price": 760
+        },
+        {
+            "id": "614cae2ed7d9bd1a02051388",
+            "title": "The Wonderful Wizard Of Oz",
+            "author": "Frank Baum",
+            "releasedYear": 1998,
+            "tags": [
+                "fantasy ",
+                "myth ",
+                "children "
+            ],
+            "price": 660
+        },
+        {
+            "id": "614cad5dd7d9bd1a02051383",
+            "title": "To Kill Mocking Bird",
+            "author": "Harper Lee",
+            "releasedYear": 2003,
+            "tags": [
+                "classic ",
+                "political "
+            ],
+            "price": 350
+        },
+        {
+            "id": "614cace6d7d9bd1a0205137f",
+            "title": "Voyage Of The Sparrowhawk",
+            "author": "Natasha Farrant",
+            "releasedYear": 2005,
+            "tags": [
+                "children ",
+                "adventure ",
+                "animal "
+            ],
+            "price": 650
+        },
+        {
+            "id": "614caba1d7d9bd1a02051378",
+            "title": "A Man With One Of Those Faces",
+            "author": "Caimh Mcdonnell",
+            "releasedYear": 2016,
+            "tags": [
+                "literature ",
+                "fiction "
+            ],
+            "price": 550
+        }
+    ]
+}
