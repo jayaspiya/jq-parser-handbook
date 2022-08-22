@@ -82,7 +82,7 @@ Object Identifier-Index: '.sample' -->
 
 
 ```bash
-jq '.sample' example.json
+jq '.status' example.json
 jq '.data' example.json
 jq '.data[0]' example.json
 jq '.data[0].name' example.json
@@ -136,14 +136,7 @@ jq '[.data[] | { name: .title, cost: .price}]' books.json
 
 ## JQ built-in functions
 Some useful functions
-1. sort
-2. sum
-3. length
-4. keys
-5. type
-6. min
-7. max
-8. unique
+![](./assets/function-word-cloud.png)
 
 ---
 
