@@ -1,0 +1,17 @@
+[
+    {
+        "author": "Miguel De Cervantes",
+        "books": "Don Quixote"
+    },
+    {
+        "author": "Nnedi Okorafor",
+        "books": "Lagoon"
+    },
+    {
+        "author": "Natasha Farrant",
+        "books": [
+            "The Children Of Castle Rock",
+            "Voyage Of The Sparrowhawk"
+        ]
+    }
+]

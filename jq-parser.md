@@ -137,12 +137,13 @@ jq '[.data[] | { name: .title, cost: .price}]' books.json
 ## JQ built-in functions
 Some useful functions
 1. sort
-2. length
-3. keys
-4. type
-5. min
-6. max
-7. unique
+2. sum
+3. length
+4. keys
+5. type
+6. min
+7. max
+8. unique
 
 ---
 
@@ -152,4 +153,93 @@ Some useful functions
 jq '.data | length' books.json
 ```
 
+```bash
+jq '[.data[].price] | max, min' books.json
+```
+
+```bash
+echo [9,3,2,6] | jq 'sort'
+```
+
+```bash
+ jq '.data[0] | (.price | type), (.title | type)' books.json
+```
 ---
+
+## Filtering
+
+```bash
+jq '.data[] | select(.price < 500)' books.json
+jq '.data[] | select((.tags | length) > 2)' books.json
+```
+
+---
+
+## Advance I
+
+Get authors and their book count
+
+```bash
+jq '.data | group_by(.author) | .[] | {author: .[0].author, books: . | length }' books.json
+```
+---
+
+## Advance II
+
+Handle a property value with different datatype
+
+```json
+[
+    {
+        "author": "Nnedi Okorafor",
+        "books": "Lagoon"
+    },
+    {
+        "author": "Natasha Farrant",
+        "books": ["The Children Of Castle Rock","Voyage Of The Sparrowhawk"]
+    }
+]
+```
+
+```bash
+jq '.[].books as $books | if $ books | type == "string" then [$books] else $books end' author.json
+```
+
+---
+
+## Advance III
+
+Referencing value from another property
+
+```json
+{
+    "books": [
+        {
+            "title": "Lord Of The Flies",
+            "authorId": "101"
+        }
+    ],
+    "author": {
+        "101": "William Golding"
+    }
+}
+```
+
+```bash
+jq '.author as $author | .books[] | {title, author: $author[.authorId]}' store.json
+```
+
+---
+
+# References
+- https://stedolan.github.io/jq/manual/
+- https://lindevs.com/install-jq-on-ubuntu/
+- http://www.compciv.org/recipes/cli/jq-for-parsing-json/
+- https://earthly.dev/blog/jq-select/
+
+
+---
+
+# Thank you
+
+### Any Questions???

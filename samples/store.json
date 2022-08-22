@@ -1,0 +1,16 @@
+{
+    "books": [
+        {
+            "title": "Lord Of The Flies",
+            "authorId": "101"
+        },
+        {
+            "title": "Sherlock Holmes",
+            "authorId": "102"
+        }
+    ],
+    "author": {
+        "101": "William Golding",
+        "102": "Arthur Conan Doyle"
+    }
+}
